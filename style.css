@@ -1,20 +1,38 @@
 body {
-    background-color:burlywood;
+    background-color:rosybrown;
     font-family: 'Times New Roman', Times,serif;
     font-size: 40px;
-    max-width: 0 auto
+    max-width: auto;
+    margin: 0;
+}   
+
+body.index{
+    background-image: url('butterflies.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 ;
+    color: black ;
 }
 h1 {
-    color:black
-
-
+    color:black;
+}
+p{
+    font:initial;
+    color:darkkhaki;
+}
+h3{
+    color:darkslategrey
+}
 
 .navigation {
-    display:flex;
-    flex-direction:row 
-    align-content:
-    margin:0;
-    padding:
+    margin: 0;
+    padding: 0;
+}
 
+.navigation li {
+    display: inline-block;
+    margin: 10px;
 }
 
